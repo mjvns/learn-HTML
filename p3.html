@@ -1,0 +1,31 @@
+<!doctype HTML>
+<html>
+<head>
+    <title>hello HTML</title>
+    <meta name="Author" content="Charles Dickens"/>
+    <meta name="keywords" content="Udacity, Sample HTML"/>
+    <meta name="Description" content="Sample for HTML course"/>
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+
+    <script type="text/javascript">
+        window.onload = function(){
+            document.getElementById("myMessage").innerHTML = "hello JavaScript";
+        };
+    </script>
+    <style type="text/css">
+        body{
+            color:red;
+        }
+        .message{
+            color:green;
+        }
+    </style>
+    <!--
+        <base href="http://www.pluralsight.com/" />
+     -->
+    <link rel="stylesheet" type="text/css" href="index.css"/>
+</head>
+<body>
+<p id="myMessage" class="message">hello world</p>
+</body>
+</html>
